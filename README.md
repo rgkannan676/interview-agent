@@ -2,7 +2,7 @@
 
 > AI-Powered Interviews · Instant Feedback · Actionable Insights
 
-A full-stack, agentic mock interview coach built to showcase applied skills in **LLM orchestration**, **Retrieval-Augmented Generation (RAG)**, and **Agentic AI system design**. Speak your answers, get real-time AI coaching, and receive a detailed performance report — all running locally.
+An end-to-end Agentic AI mock interview coach built to demonstrate production-ready AI engineering concepts, including LLM orchestration, RAG pipelines, multi-agent workflows, speech processing, and automated evaluation. Practice interviews through natural voice interactions, receive real-time coaching, and obtain detailed performance insights—all from a fully local deployment.
 
 ---
 
@@ -216,22 +216,9 @@ interview-agent/
 
 ---
 
-## Key Design Decisions
-
-**Why LangGraph for the interviewer?**
-The interview is a stateful loop — opening question → answer → follow-up → answer → … → report. LangGraph's state machine makes transitions explicit and testable, and makes it straightforward to add new nodes (hint generation, topic routing, difficulty adaptation) without refactoring the core loop.
-
-**Why RAG for question generation?**
-Purely prompting the LLM to "ask a technical question" produces generic output. Seeding the prompt with questions retrieved from a curated, difficulty-filtered bank anchors the LLM to the right style, level, and domain — especially important for role-specific or JD-driven sessions.
-
-**Why ChromaDB + SentenceTransformer locally?**
-Zero latency, no external API calls for retrieval, and the question bank is small enough that a local vector store is the right tool. The same setup also handles JD chunking and per-question JD context retrieval within a session.
-
----
-
 ## Contributing
 
-This is a personal portfolio project but issues and PRs are welcome.
+This is a personal showcase project developed to experiment with and demonstrate modern AI engineering practices. If you find it useful, feel free to open issues, suggest improvements, or submit pull requests.
 
 ---
 
