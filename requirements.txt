@@ -13,9 +13,6 @@ sentence-transformers>=3.0.0
 # Speech
 gtts>=2.5.0
 
-# MLOps
-mlflow>=2.13.0
-
 # Backend
 fastapi>=0.111.0
 uvicorn[standard]>=0.30.0

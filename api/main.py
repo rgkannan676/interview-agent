@@ -15,7 +15,6 @@ from agents.interviewer_agent import start_session, generate_opening_question, g
 from agents.evaluator_agent import score_answer, generate_session_report
 from agents.speech import transcribe_audio, synthesize_speech
 from rag.rag import ingest_job_description, retrieve_jd_context, index_question_bank
-from mlops.tracker import log_session
 
 app = FastAPI(title="InterviewIQ API", version="1.0.0")
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
@@ -94,7 +93,6 @@ async def submit_answer(req: AnswerSubmitRequest):
             state["role"], state["interview_type"], state["difficulty"], state["history"]
         )
         _persist_session(req.session_id, report)
-        log_session(req.session_id, report)
         return {"done": True, "report": report}
 
     state = generate_followup_question(state)
@@ -115,7 +113,6 @@ async def end_session(req: dict):
         state["role"], state["interview_type"], state["difficulty"], state["history"]
     )
     _persist_session(session_id, report)
-    log_session(session_id, report)
     del _sessions[session_id]
     return {"done": True, "report": report}
 

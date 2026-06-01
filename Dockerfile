@@ -15,6 +15,8 @@ RUN uv pip install --system --no-cache -r requirements.txt
 
 COPY . .
 
+ENV PYTHONPATH=/app
+
 EXPOSE 8000 7860
 
-CMD ["sh", "-c", "uvicorn api.main:app --host 0.0.0.0 --port 8000 & python ui/app.py"]
+CMD ["sh", "-c", "uvicorn api.main:app --host 0.0.0.0 --port 8000 & sleep 5 && python ui/app.py"]

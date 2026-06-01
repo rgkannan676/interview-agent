@@ -29,7 +29,6 @@ A full-stack, agentic mock interview coach built to showcase applied skills in *
 - **Detailed Reports** — Dimension bar charts, per-question AI feedback, speech metrics, grade, and actionable coaching recommendations
 - **Interview History** — Filterable (date range, type, grade) session history with click-to-view reports and per-session delete
 - **Fully configurable** — Target role, interview type (Technical / Behavioural / System Design), difficulty (Junior → Principal), max questions per session, and optional job description for personalised questions
-- **MLflow tracking** — Every session logged for experiment tracking and analysis
 - **Dockerised** — Single `docker compose up` starts the full stack
 
 ---
@@ -84,7 +83,6 @@ A full-stack, agentic mock interview coach built to showcase applied skills in *
 | Agent orchestration | LangGraph |
 | LLM chaining | LangChain + LangChain-Groq |
 | Vector store / RAG | ChromaDB + `all-MiniLM-L6-v2` |
-| MLOps | MLflow |
 | Backend | FastAPI |
 | Frontend | Gradio 6 |
 | Containers | Docker + Docker Compose |
@@ -173,9 +171,7 @@ cp .env.example .env      # set your GROQ_API_KEY inside
 docker compose up --build
 ```
 
-This starts:
-- **PrepWise AI** — API on port `8000`, UI on port `7860`
-- **MLflow** tracking server on port `5000`
+This starts the full PrepWise AI stack — API on port `8000`, UI on port `7860`.
 
 ---
 

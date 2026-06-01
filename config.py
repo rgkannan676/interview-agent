@@ -10,8 +10,6 @@ QUESTION_BANK_DIR = DATA_DIR / "question_bank"
 JD_UPLOADS_DIR = DATA_DIR / "jd_uploads"
 SESSIONS_DIR = DATA_DIR / "sessions"
 CHROMA_DB_DIR = DATA_DIR / "chroma_db"
-MLFLOW_TRACKING_URI = str(BASE_DIR / "mlruns")
-
 # --- Groq ---
 GROQ_MODEL = "llama-3.3-70b-versatile"
 GROQ_WHISPER_MODEL = "whisper-large-v3"

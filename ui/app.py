@@ -474,4 +474,4 @@ with gr.Blocks(title="PrepWise AI") as demo:
 
 
 if __name__ == "__main__":
-    demo.launch(server_port=GRADIO_PORT, share=False, css=CSS, js=_PAGE_JS)
+    demo.launch(server_name="0.0.0.0", server_port=GRADIO_PORT, share=False, css=CSS, js=_PAGE_JS)
