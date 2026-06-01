@@ -1,0 +1,84 @@
+/* ── Reset & full-screen base ────────────────────────────────────────────── */
+html, body {
+    height: 100%;
+    margin: 0;
+    background: #f1f5f9 !important;
+}
+
+.gradio-container {
+    max-width: 100% !important;
+    width: 100% !important;
+    min-height: 100vh !important;
+    background: #f1f5f9 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* ── Page wrapper — centers content and sets max readable width ──────────── */
+.page-wrap {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 32px 24px 48px;
+}
+
+/* ── Card ────────────────────────────────────────────────────────────────── */
+.card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 36px 40px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, .07);
+    border: 1px solid #e2e8f0;
+    margin-bottom: 20px;
+}
+
+/* ── App header (setup page) ─────────────────────────────────────────────── */
+.app-header {
+    text-align: center;
+    padding: 32px 0 24px;
+}
+
+.app-title {
+    font-size: 2.6rem;
+    font-weight: 900;
+    letter-spacing: -.03em;
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 8px;
+}
+
+.app-subtitle {
+    color: #64748b;
+    font-size: 1rem;
+}
+
+/* ── Section labels ──────────────────────────────────────────────────────── */
+.section-label {
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #94a3b8;
+    margin: 20px 0 6px;
+}
+
+/* ── Buttons ─────────────────────────────────────────────────────────────── */
+button[variant="primary"] {
+    background: linear-gradient(135deg, #4f46e5, #7c3aed) !important;
+    border: none !important;
+    border-radius: 12px !important;
+    font-weight: 700 !important;
+    letter-spacing: .02em !important;
+    box-shadow: 0 4px 14px rgba(99, 102, 241, .35) !important;
+    transition: transform .15s ease, box-shadow .15s ease !important;
+}
+
+button[variant="primary"]:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 20px rgba(99, 102, 241, .45) !important;
+}
+
+
+/* Hidden bridge textboxes — in DOM for JS events, invisible to user */
+#iq_click_session, #iq_delete_session { display: none !important; }

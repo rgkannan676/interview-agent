@@ -1,0 +1,146 @@
+# Behavioural interview questions — 28 questions
+# All expected to follow STAR format
+
+# --- Junior ---
+- id: beh_001
+  type: Behavioural
+  difficulty: Junior
+  question: "Tell me about a time you had to learn a new technology quickly under pressure."
+
+- id: beh_002
+  type: Behavioural
+  difficulty: Junior
+  question: "Describe a situation where you disagreed with a teammate. How did you resolve it?"
+
+- id: beh_003
+  type: Behavioural
+  difficulty: Junior
+  question: "Tell me about a time you made a mistake in your code. How did you find it and what did you do?"
+
+- id: beh_004
+  type: Behavioural
+  difficulty: Junior
+  question: "Describe a time you received critical feedback. How did you respond?"
+
+- id: beh_005
+  type: Behavioural
+  difficulty: Junior
+  question: "Tell me about a project you are most proud of. What was your specific contribution?"
+
+- id: beh_006
+  type: Behavioural
+  difficulty: Junior
+  question: "Describe a time you had to meet a tight deadline. What did you prioritise and why?"
+
+- id: beh_007
+  type: Behavioural
+  difficulty: Junior
+  question: "Tell me about a time you helped a colleague who was struggling."
+
+# --- Mid ---
+- id: beh_008
+  type: Behavioural
+  difficulty: Mid
+  question: "Tell me about a project that failed. What did you learn from it?"
+
+- id: beh_009
+  type: Behavioural
+  difficulty: Mid
+  question: "Describe a time you had to influence a decision without direct authority."
+
+- id: beh_010
+  type: Behavioural
+  difficulty: Mid
+  question: "Tell me about a time you had to balance technical debt against shipping a feature. What did you decide?"
+
+- id: beh_011
+  type: Behavioural
+  difficulty: Mid
+  question: "Describe a situation where requirements changed significantly mid-project. How did you handle it?"
+
+- id: beh_012
+  type: Behavioural
+  difficulty: Mid
+  question: "Tell me about a time you had to deliver bad news to a stakeholder or manager."
+
+- id: beh_013
+  type: Behavioural
+  difficulty: Mid
+  question: "Describe a time you proactively identified and fixed a problem before it became critical."
+
+- id: beh_014
+  type: Behavioural
+  difficulty: Mid
+  question: "Tell me about a time you had to work with a difficult stakeholder. How did you manage the relationship?"
+
+- id: beh_015
+  type: Behavioural
+  difficulty: Mid
+  question: "Describe a situation where you had to make a decision with incomplete information."
+
+- id: beh_016
+  type: Behavioural
+  difficulty: Mid
+  question: "Tell me about a time you significantly improved the performance of a system or process."
+
+# --- Senior ---
+- id: beh_017
+  type: Behavioural
+  difficulty: Senior
+  question: "Tell me about a time you drove a major change in your team or organisation."
+
+- id: beh_018
+  type: Behavioural
+  difficulty: Senior
+  question: "Describe a time you had to push back on a product or business requirement. How did you handle it?"
+
+- id: beh_019
+  type: Behavioural
+  difficulty: Senior
+  question: "Tell me about a time you mentored a junior engineer. What approach did you take and what was the outcome?"
+
+- id: beh_020
+  type: Behavioural
+  difficulty: Senior
+  question: "Describe a situation where you had to navigate significant ambiguity on a high-stakes project."
+
+- id: beh_021
+  type: Behavioural
+  difficulty: Senior
+  question: "Tell me about a time you disagreed with your engineering manager. What happened?"
+
+- id: beh_022
+  type: Behavioural
+  difficulty: Senior
+  question: "Describe a time you had to prioritise ruthlessly across multiple competing projects. How did you decide?"
+
+- id: beh_023
+  type: Behavioural
+  difficulty: Senior
+  question: "Tell me about the most technically complex problem you have ever solved. What made it hard?"
+
+# --- Principal ---
+- id: beh_024
+  type: Behavioural
+  difficulty: Principal
+  question: "Describe how you have built and mentored high-performing engineering teams."
+
+- id: beh_025
+  type: Behavioural
+  difficulty: Principal
+  question: "Tell me about a time you had to change the technical direction of an entire organisation. What was the resistance and how did you get buy-in?"
+
+- id: beh_026
+  type: Behavioural
+  difficulty: Principal
+  question: "Describe a time you had to balance long-term platform health against short-term business pressure. What did you do?"
+
+- id: beh_027
+  type: Behavioural
+  difficulty: Principal
+  question: "Tell me about a time you identified a systemic problem in how your engineering organisation operated and led the effort to fix it."
+
+- id: beh_028
+  type: Behavioural
+  difficulty: Principal
+  question: "Describe the most impactful technical decision you have ever made. How did you validate it was the right call?"

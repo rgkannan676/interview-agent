@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+
+# Data (keep structure, ignore content)
+data/jd_uploads/*
+data/sessions/*
+data/chroma_db/
+!data/jd_uploads/.gitkeep
+!data/sessions/.gitkeep
+
+# MLflow
+mlruns/
+
+# Audio tmp files
+*.mp3
+*.wav
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+
+# Docker
+*.log

@@ -1,0 +1,217 @@
+# System Design interview questions — 22 questions
+
+# --- Mid ---
+- id: sd_001
+  type: System Design
+  difficulty: Mid
+  question: "Design a URL shortener like bit.ly. Walk me through your architecture."
+
+- id: sd_002
+  type: System Design
+  difficulty: Mid
+  question: "How would you design a notification system that handles millions of users across email, SMS, and push?"
+
+- id: sd_003
+  type: System Design
+  difficulty: Mid
+  question: "Design a simple key-value store that supports get, put, and delete operations."
+
+- id: sd_004
+  type: System Design
+  difficulty: Mid
+  question: "How would you design a leaderboard system for an online game with real-time rankings?"
+
+- id: sd_005
+  type: System Design
+  difficulty: Mid
+  question: "Design a file storage service like Dropbox. Focus on upload, download, and sync."
+
+- id: sd_006
+  type: System Design
+  difficulty: Mid
+  question: "How would you design a basic recommendation system for an e-commerce platform?"
+
+- id: sd_007
+  type: System Design
+  difficulty: Mid
+  question: "Design a job scheduling system that executes tasks at a specified time."
+
+- id: sd_008
+  type: System Design
+  difficulty: Mid
+  question: "How would you design a logging and monitoring system for a microservices platform?"
+
+# --- Senior ---
+- id: sd_009
+  type: System Design
+  difficulty: Senior
+  question: "Design a real-time collaborative document editor like Google Docs."
+
+- id: sd_010
+  type: System Design
+  difficulty: Senior
+  question: "How would you architect a ride-sharing backend at Uber scale?"
+
+- id: sd_011
+  type: System Design
+  difficulty: Senior
+  question: "Design a social media feed (like Twitter/X) that shows posts from accounts a user follows."
+
+- id: sd_012
+  type: System Design
+  difficulty: Senior
+  question: "How would you design a distributed search engine like Elasticsearch?"
+
+- id: sd_013
+  type: System Design
+  difficulty: Senior
+  question: "Design a payment processing system. How do you ensure consistency and handle failures?"
+
+- id: sd_014
+  type: System Design
+  difficulty: Senior
+  question: "How would you design a video streaming platform like YouTube? Focus on upload pipeline and delivery."
+
+- id: sd_015
+  type: System Design
+  difficulty: Senior
+  question: "Design a distributed task queue like Celery or SQS. How does it handle retries and failures?"
+
+- id: sd_016
+  type: System Design
+  difficulty: Senior
+  question: "How would you design an API gateway for a microservices architecture?"
+
+- id: sd_017
+  type: System Design
+  difficulty: Senior
+  question: "Design a real-time chat system like Slack. How do you handle presence, message delivery, and history?"
+
+- id: sd_018
+  type: System Design
+  difficulty: Senior
+  question: "How would you design a multi-region active-active database setup with conflict resolution?"
+
+# --- Principal ---
+- id: sd_019
+  type: System Design
+  difficulty: Principal
+  question: "Design a globally distributed, consistent key-value store like DynamoDB or Cassandra."
+
+- id: sd_020
+  type: System Design
+  difficulty: Principal
+  question: "How would you design the infrastructure for a platform serving 100 million daily active users? Walk through capacity planning, reliability, and cost trade-offs."
+
+- id: sd_021
+  type: System Design
+  difficulty: Principal
+  question: "Design a fraud detection system for a financial platform that processes millions of transactions per day in real time."
+
+- id: sd_022
+  type: System Design
+  difficulty: Principal
+  question: "How would you design a multi-tenant platform where enterprise customers require strict data residency, custom SLAs, and isolated compute?"
+
+# ── ML / AI System Design ─────────────────────────────────────────────────────
+
+- id: ml_sd_001
+  type: System Design
+  difficulty: Mid
+  question: "Design a real-time recommendation system for a content platform. How do you handle the cold-start problem and keep recommendations fresh?"
+
+- id: ml_sd_002
+  type: System Design
+  difficulty: Mid
+  question: "How would you design a real-time fraud detection system using a machine learning model? Focus on latency, explainability, and feedback loops."
+
+- id: ml_sd_003
+  type: System Design
+  difficulty: Senior
+  question: "Design an end-to-end ML platform: data ingestion, feature engineering, experiment tracking, model training, and online serving."
+
+- id: ml_sd_004
+  type: System Design
+  difficulty: Senior
+  question: "Design a feature store that supports both batch and real-time feature computation and serving with point-in-time correctness."
+
+- id: ml_sd_005
+  type: System Design
+  difficulty: Senior
+  question: "Design a vector search system that handles billions of embeddings with sub-50ms p99 latency."
+
+- id: ml_sd_006
+  type: System Design
+  difficulty: Senior
+  question: "How would you design a model serving infrastructure that supports shadow deployments, A/B testing, and automatic rollbacks?"
+
+- id: ml_sd_007
+  type: System Design
+  difficulty: Principal
+  question: "Design a unified ML platform at the scale of a large tech company — spanning data, training, evaluation, deployment, and monitoring for hundreds of models across many teams."
+
+# ── Frontend / Web Architecture ───────────────────────────────────────────────
+
+- id: fe_sd_001
+  type: System Design
+  difficulty: Mid
+  question: "Design a frontend architecture for a web application that needs to support 10 million daily active users. How do you handle caching, CDN, and asset delivery?"
+
+- id: fe_sd_002
+  type: System Design
+  difficulty: Mid
+  question: "How would you design a reusable component library shared across multiple product teams?"
+
+- id: fe_sd_003
+  type: System Design
+  difficulty: Senior
+  question: "Design a micro-frontend architecture for a large e-commerce platform where multiple teams own different sections of the site."
+
+- id: fe_sd_004
+  type: System Design
+  difficulty: Senior
+  question: "How would you design a real-time collaborative whiteboard application in the browser? Focus on state synchronisation and conflict resolution."
+
+# ── Data Platform Design ──────────────────────────────────────────────────────
+
+- id: dp_sd_001
+  type: System Design
+  difficulty: Mid
+  question: "Design a data ingestion pipeline that collects clickstream events from a mobile app and makes them available for analytics within 5 minutes."
+
+- id: dp_sd_002
+  type: System Design
+  difficulty: Senior
+  question: "Design a data lakehouse platform that supports both streaming and batch analytics for a company processing 10TB of data per day."
+
+- id: dp_sd_003
+  type: System Design
+  difficulty: Senior
+  question: "How would you design a metadata and data cataloguing system so data scientists can discover, understand, and trust datasets across the organisation?"
+
+- id: dp_sd_004
+  type: System Design
+  difficulty: Principal
+  question: "Design a real-time analytics platform that lets product teams run arbitrary SQL queries on events with under 1-second latency at 1 million events per second."
+
+# ── Cloud / Infrastructure Design ─────────────────────────────────────────────
+
+- id: cloud_sd_001
+  type: System Design
+  difficulty: Mid
+  question: "Design a CI/CD pipeline for a microservices platform with 50 services. How do you handle dependencies, testing, and safe rollouts?"
+
+- id: cloud_sd_002
+  type: System Design
+  difficulty: Senior
+  question: "How would you design a multi-region disaster recovery strategy for a SaaS platform with an RTO of 5 minutes and RPO of 30 seconds?"
+
+- id: cloud_sd_003
+  type: System Design
+  difficulty: Senior
+  question: "Design a secrets and configuration management system for a large Kubernetes-based platform. How do you handle rotation, audit trails, and least-privilege access?"
+
+- id: cloud_sd_004
+  type: System Design
+  difficulty: Principal
+  question: "How would you design a self-service internal developer platform that lets engineering teams deploy, monitor, and scale their services without needing to understand the underlying infrastructure?"

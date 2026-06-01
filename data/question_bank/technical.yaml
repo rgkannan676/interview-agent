@@ -1,0 +1,701 @@
+# Technical interview questions — 50 questions
+# Topics: DS&A, databases, networking, OS, APIs, testing, security, cloud, Python
+
+# --- Junior ---
+- id: tech_001
+  type: Technical
+  difficulty: Junior
+  question: "What is the difference between a process and a thread?"
+
+- id: tech_002
+  type: Technical
+  difficulty: Junior
+  question: "Explain the concept of RESTful APIs and their key constraints."
+
+- id: tech_003
+  type: Technical
+  difficulty: Junior
+  question: "What is the difference between a stack and a queue? Give a real-world example of each."
+
+- id: tech_004
+  type: Technical
+  difficulty: Junior
+  question: "What is the difference between TCP and UDP? When would you choose one over the other?"
+
+- id: tech_005
+  type: Technical
+  difficulty: Junior
+  question: "What is a foreign key in a relational database and why is it important?"
+
+- id: tech_006
+  type: Technical
+  difficulty: Junior
+  question: "Explain what Big-O notation is and why it matters."
+
+- id: tech_007
+  type: Technical
+  difficulty: Junior
+  question: "What is the difference between GET and POST HTTP methods?"
+
+- id: tech_008
+  type: Technical
+  difficulty: Junior
+  question: "What is a linked list? How does it differ from an array?"
+
+- id: tech_009
+  type: Technical
+  difficulty: Junior
+  question: "What does ACID stand for in database transactions?"
+
+- id: tech_010
+  type: Technical
+  difficulty: Junior
+  question: "What is the difference between SQL and NoSQL databases? When would you use each?"
+
+- id: tech_011
+  type: Technical
+  difficulty: Junior
+  question: "What is version control and why is Git important in software development?"
+
+- id: tech_012
+  type: Technical
+  difficulty: Junior
+  question: "Explain what an API is. How does it enable communication between services?"
+
+- id: tech_013
+  type: Technical
+  difficulty: Junior
+  question: "What is the difference between synchronous and asynchronous programming?"
+
+# --- Mid ---
+- id: tech_014
+  type: Technical
+  difficulty: Mid
+  question: "How does a hash map handle collisions internally?"
+
+- id: tech_015
+  type: Technical
+  difficulty: Mid
+  question: "Explain the CAP theorem and its practical implications."
+
+- id: tech_016
+  type: Technical
+  difficulty: Mid
+  question: "What is a database index? How does it improve query performance and what are the trade-offs?"
+
+- id: tech_017
+  type: Technical
+  difficulty: Mid
+  question: "Explain the difference between optimistic and pessimistic locking."
+
+- id: tech_018
+  type: Technical
+  difficulty: Mid
+  question: "What is a deadlock? How can you detect and prevent one?"
+
+- id: tech_019
+  type: Technical
+  difficulty: Mid
+  question: "What are the SOLID principles? Pick two and explain them with examples."
+
+- id: tech_020
+  type: Technical
+  difficulty: Mid
+  question: "Explain how a binary search tree works. What is its average vs worst-case lookup time?"
+
+- id: tech_021
+  type: Technical
+  difficulty: Mid
+  question: "What is the difference between vertical and horizontal scaling?"
+
+- id: tech_022
+  type: Technical
+  difficulty: Mid
+  question: "Explain REST vs GraphQL. What are the trade-offs?"
+
+- id: tech_023
+  type: Technical
+  difficulty: Mid
+  question: "What is a race condition? How do you prevent it?"
+
+- id: tech_024
+  type: Technical
+  difficulty: Mid
+  question: "How does garbage collection work? Explain the generational GC approach."
+
+- id: tech_025
+  type: Technical
+  difficulty: Mid
+  question: "What is the difference between unit, integration, and end-to-end tests?"
+
+- id: tech_026
+  type: Technical
+  difficulty: Mid
+  question: "Explain what a message queue is and when you would use one over a direct API call."
+
+- id: tech_027
+  type: Technical
+  difficulty: Mid
+  question: "What is Docker and what problem does containerisation solve?"
+
+- id: tech_028
+  type: Technical
+  difficulty: Mid
+  question: "Explain how OAuth 2.0 works at a high level."
+
+- id: tech_029
+  type: Technical
+  difficulty: Mid
+  question: "What is eventual consistency? Give a real-world example."
+
+- id: tech_030
+  type: Technical
+  difficulty: Mid
+  question: "How does a CDN work and when should you use one?"
+
+- id: tech_031
+  type: Technical
+  difficulty: Mid
+  question: "What is connection pooling and why is it important for database performance?"
+
+- id: tech_032
+  type: Technical
+  difficulty: Mid
+  question: "Explain the difference between microservices and a monolithic architecture."
+
+- id: tech_033
+  type: Technical
+  difficulty: Mid
+  question: "What is memoisation? Write a simple example and explain when it helps."
+
+# --- Senior ---
+- id: tech_034
+  type: Technical
+  difficulty: Senior
+  question: "How would you design a distributed rate limiter that works across multiple data centres?"
+
+- id: tech_035
+  type: Technical
+  difficulty: Senior
+  question: "Walk me through how you would optimise a slow database query step by step."
+
+- id: tech_036
+  type: Technical
+  difficulty: Senior
+  question: "Explain the two-phase commit protocol. What are its limitations in distributed systems?"
+
+- id: tech_037
+  type: Technical
+  difficulty: Senior
+  question: "How does Kubernetes handle service discovery and load balancing internally?"
+
+- id: tech_038
+  type: Technical
+  difficulty: Senior
+  question: "What is a write-ahead log (WAL) and why is it central to database durability?"
+
+- id: tech_039
+  type: Technical
+  difficulty: Senior
+  question: "How would you implement a distributed cache with cache invalidation across multiple nodes?"
+
+- id: tech_040
+  type: Technical
+  difficulty: Senior
+  question: "Explain the saga pattern for managing distributed transactions."
+
+- id: tech_041
+  type: Technical
+  difficulty: Senior
+  question: "How would you approach migrating a live relational database schema with zero downtime?"
+
+- id: tech_042
+  type: Technical
+  difficulty: Senior
+  question: "What is consistent hashing and why is it used in distributed systems like DynamoDB?"
+
+- id: tech_043
+  type: Technical
+  difficulty: Senior
+  question: "Explain how you would secure a public-facing REST API — authentication, authorisation, and rate limiting."
+
+- id: tech_044
+  type: Technical
+  difficulty: Senior
+  question: "What is a bloom filter? Where would you use one in a production system?"
+
+- id: tech_045
+  type: Technical
+  difficulty: Senior
+  question: "How does the Linux kernel scheduler decide which process to run next?"
+
+# --- Principal ---
+- id: tech_046
+  type: Technical
+  difficulty: Principal
+  question: "Describe a time you made a significant architectural decision. What were the trade-offs and what would you do differently?"
+
+- id: tech_047
+  type: Technical
+  difficulty: Principal
+  question: "How do you evaluate whether to build, buy, or adopt open source for a critical infrastructure component?"
+
+- id: tech_048
+  type: Technical
+  difficulty: Principal
+  question: "A service you own is causing a cascading failure across the platform. Walk me through your incident response process."
+
+- id: tech_049
+  type: Technical
+  difficulty: Principal
+  question: "How do you ensure technical consistency and quality across multiple engineering teams working on the same platform?"
+
+- id: tech_050
+  type: Technical
+  difficulty: Principal
+  question: "Explain how you would design a multi-tenant SaaS platform that needs strict data isolation between customers."
+
+# ── AI / ML Engineering ───────────────────────────────────────────────────────
+
+# --- Junior ---
+- id: ai_001
+  type: Technical
+  difficulty: Junior
+  question: "What is the difference between supervised, unsupervised, and reinforcement learning? Give a real-world example of each."
+
+- id: ai_002
+  type: Technical
+  difficulty: Junior
+  question: "What is overfitting? How do you detect it, and what techniques help prevent it?"
+
+- id: ai_003
+  type: Technical
+  difficulty: Junior
+  question: "Explain the bias-variance trade-off. What happens to a model when bias is too high? When variance is too high?"
+
+- id: ai_004
+  type: Technical
+  difficulty: Junior
+  question: "What is gradient descent and how does it update model weights during training?"
+
+- id: ai_005
+  type: Technical
+  difficulty: Junior
+  question: "What is the difference between precision and recall? When would you prioritise one over the other?"
+
+- id: ai_006
+  type: Technical
+  difficulty: Junior
+  question: "What is cross-validation and why is it important for evaluating machine learning models?"
+
+- id: ai_007
+  type: Technical
+  difficulty: Junior
+  question: "What is a confusion matrix and how do you interpret it?"
+
+- id: ai_008
+  type: Technical
+  difficulty: Junior
+  question: "What is feature scaling? Which ML algorithms are sensitive to it and why?"
+
+# --- Mid ---
+- id: ai_009
+  type: Technical
+  difficulty: Mid
+  question: "Explain how backpropagation works. How are gradients computed and propagated through the network?"
+
+- id: ai_010
+  type: Technical
+  difficulty: Mid
+  question: "What is the vanishing gradient problem and which techniques or architectures address it?"
+
+- id: ai_011
+  type: Technical
+  difficulty: Mid
+  question: "What is the difference between L1 and L2 regularisation? When would you choose one over the other?"
+
+- id: ai_012
+  type: Technical
+  difficulty: Mid
+  question: "What is batch normalisation and why does it speed up training of deep neural networks?"
+
+- id: ai_013
+  type: Technical
+  difficulty: Mid
+  question: "Explain the attention mechanism in transformers. How does self-attention work?"
+
+- id: ai_014
+  type: Technical
+  difficulty: Mid
+  question: "What is transfer learning and when would you fine-tune a pre-trained model instead of training from scratch?"
+
+- id: ai_015
+  type: Technical
+  difficulty: Mid
+  question: "What is Retrieval-Augmented Generation (RAG)? What problem does it solve compared to a standalone LLM?"
+
+- id: ai_016
+  type: Technical
+  difficulty: Mid
+  question: "What is the difference between prompt engineering and fine-tuning an LLM? When would you use each?"
+
+- id: ai_017
+  type: Technical
+  difficulty: Mid
+  question: "How would you handle a severely imbalanced dataset in a binary classification problem?"
+
+- id: ai_018
+  type: Technical
+  difficulty: Mid
+  question: "What is model drift? How do you monitor and respond to it in a production ML system?"
+
+- id: ai_019
+  type: Technical
+  difficulty: Mid
+  question: "What is a feature store? Why is it important in production ML systems?"
+
+- id: ai_020
+  type: Technical
+  difficulty: Mid
+  question: "How does a vector database work? What makes cosine similarity useful for semantic search?"
+
+# --- Senior ---
+- id: ai_021
+  type: Technical
+  difficulty: Senior
+  question: "How would you design a training pipeline that handles terabytes of training data efficiently and reproducibly?"
+
+- id: ai_022
+  type: Technical
+  difficulty: Senior
+  question: "A model performs well offline but degrades after deployment. Walk me through how you would systematically debug this."
+
+- id: ai_023
+  type: Technical
+  difficulty: Senior
+  question: "How do you safely A/B test an ML model in production? What metrics do you monitor and what are the guardrails?"
+
+- id: ai_024
+  type: Technical
+  difficulty: Senior
+  question: "Explain the trade-offs between full fine-tuning, LoRA, and prompt engineering for adapting a large language model."
+
+- id: ai_025
+  type: Technical
+  difficulty: Senior
+  question: "What is RLHF (Reinforcement Learning from Human Feedback) and how is it used to align LLMs with human preferences?"
+
+- id: ai_026
+  type: Technical
+  difficulty: Senior
+  question: "How would you design a real-time feature engineering pipeline for a recommendation system with sub-100ms latency?"
+
+# --- Principal ---
+- id: ai_027
+  type: Technical
+  difficulty: Principal
+  question: "How would you design an ML platform that serves multiple teams with different frameworks, data sources, and latency requirements?"
+
+- id: ai_028
+  type: Technical
+  difficulty: Principal
+  question: "How do you approach responsible AI and model governance at scale — bias detection, explainability, and regulatory compliance?"
+
+- id: ai_029
+  type: Technical
+  difficulty: Principal
+  question: "How would you migrate a team from ad-hoc notebooks to a production-grade MLOps platform without disrupting ongoing work?"
+
+# ── Frontend Engineering ──────────────────────────────────────────────────────
+
+# --- Junior ---
+- id: fe_001
+  type: Technical
+  difficulty: Junior
+  question: "What is the difference between the real DOM and the virtual DOM? Why does React use a virtual DOM?"
+
+- id: fe_002
+  type: Technical
+  difficulty: Junior
+  question: "Explain the CSS box model. What is the difference between content-box and border-box sizing?"
+
+- id: fe_003
+  type: Technical
+  difficulty: Junior
+  question: "What is event bubbling and event capturing in JavaScript? How does stopPropagation work?"
+
+- id: fe_004
+  type: Technical
+  difficulty: Junior
+  question: "What is the difference between localStorage, sessionStorage, and cookies?"
+
+- id: fe_005
+  type: Technical
+  difficulty: Junior
+  question: "What does it mean for JavaScript to be single-threaded? How does the event loop work?"
+
+- id: fe_006
+  type: Technical
+  difficulty: Junior
+  question: "What is the difference between == and === in JavaScript?"
+
+# --- Mid ---
+- id: fe_007
+  type: Technical
+  difficulty: Mid
+  question: "Explain React hooks. What problem do useState and useEffect solve compared to class components?"
+
+- id: fe_008
+  type: Technical
+  difficulty: Mid
+  question: "What is the difference between useCallback and useMemo? When would you use each?"
+
+- id: fe_009
+  type: Technical
+  difficulty: Mid
+  question: "What is code splitting and lazy loading in a React application? How does it improve performance?"
+
+- id: fe_010
+  type: Technical
+  difficulty: Mid
+  question: "Explain CORS. Why does it exist and how do you handle it in a frontend application?"
+
+- id: fe_011
+  type: Technical
+  difficulty: Mid
+  question: "What is the difference between Server-Side Rendering (SSR), Client-Side Rendering (CSR), and Static Site Generation (SSG)? When would you choose each?"
+
+- id: fe_012
+  type: Technical
+  difficulty: Mid
+  question: "How does state management work in large React applications? Compare Redux, Zustand, and React Context."
+
+- id: fe_013
+  type: Technical
+  difficulty: Mid
+  question: "What are Web Workers and when would you use one in a frontend application?"
+
+- id: fe_014
+  type: Technical
+  difficulty: Mid
+  question: "How would you approach web accessibility (a11y)? What are the key WCAG principles?"
+
+# --- Senior ---
+- id: fe_015
+  type: Technical
+  difficulty: Senior
+  question: "What is a micro-frontend architecture? What are the trade-offs compared to a monolithic frontend?"
+
+- id: fe_016
+  type: Technical
+  difficulty: Senior
+  question: "How would you optimise a React application that has severe rendering performance issues? Walk me through your process."
+
+- id: fe_017
+  type: Technical
+  difficulty: Senior
+  question: "Explain how browser rendering works — from HTML parsing to paint. Where do layout thrashing and repaints occur?"
+
+- id: fe_018
+  type: Technical
+  difficulty: Senior
+  question: "How would you design a frontend build pipeline for a large team working on a shared codebase?"
+
+# --- Principal ---
+- id: fe_019
+  type: Technical
+  difficulty: Principal
+  question: "How would you design a design system and component library strategy for an organisation with multiple product teams?"
+
+- id: fe_020
+  type: Technical
+  difficulty: Principal
+  question: "How do you manage frontend technical debt and dependency upgrades at scale across many teams?"
+
+# ── Cloud / DevOps / SRE ──────────────────────────────────────────────────────
+
+# --- Junior ---
+- id: do_001
+  type: Technical
+  difficulty: Junior
+  question: "What is the difference between a container and a virtual machine?"
+
+- id: do_002
+  type: Technical
+  difficulty: Junior
+  question: "What is CI/CD? Explain the difference between continuous integration, continuous delivery, and continuous deployment."
+
+- id: do_003
+  type: Technical
+  difficulty: Junior
+  question: "What is DNS? How does it resolve a domain name to an IP address?"
+
+- id: do_004
+  type: Technical
+  difficulty: Junior
+  question: "What is Infrastructure as Code (IaC) and why is it valuable?"
+
+# --- Mid ---
+- id: do_005
+  type: Technical
+  difficulty: Mid
+  question: "Explain Kubernetes pods, deployments, and services. How do they relate to each other?"
+
+- id: do_006
+  type: Technical
+  difficulty: Mid
+  question: "What is Terraform? How does it manage infrastructure state and what happens during a plan vs apply?"
+
+- id: do_007
+  type: Technical
+  difficulty: Mid
+  question: "What is the difference between a blue-green deployment and a canary deployment?"
+
+- id: do_008
+  type: Technical
+  difficulty: Mid
+  question: "How does Prometheus and Grafana work together for monitoring? What is a good alerting strategy?"
+
+- id: do_009
+  type: Technical
+  difficulty: Mid
+  question: "What is an SLO, SLA, and SLI? How do you set and measure them?"
+
+- id: do_010
+  type: Technical
+  difficulty: Mid
+  question: "What is a service mesh (e.g. Istio)? What problems does it solve?"
+
+- id: do_011
+  type: Technical
+  difficulty: Mid
+  question: "Explain the difference between horizontal pod autoscaling and vertical pod autoscaling in Kubernetes."
+
+# --- Senior ---
+- id: do_012
+  type: Technical
+  difficulty: Senior
+  question: "How would you design a multi-region active-active infrastructure that handles regional failover automatically?"
+
+- id: do_013
+  type: Technical
+  difficulty: Senior
+  question: "Walk me through your incident response process for a production outage affecting thousands of users."
+
+- id: do_014
+  type: Technical
+  difficulty: Senior
+  question: "How do you approach FinOps — managing and optimising cloud costs in a fast-growing engineering organisation?"
+
+- id: do_015
+  type: Technical
+  difficulty: Senior
+  question: "How would you design a zero-trust security model for a cloud-native microservices platform?"
+
+# --- Principal ---
+- id: do_016
+  type: Technical
+  difficulty: Principal
+  question: "How would you design a cloud platform strategy — build vs buy, multi-cloud vs single-cloud — for a company at scale?"
+
+- id: do_017
+  type: Technical
+  difficulty: Principal
+  question: "How do you build an SRE culture in an organisation that is transitioning from ops-heavy to developer-owned reliability?"
+
+# ── Data Engineering ──────────────────────────────────────────────────────────
+
+# --- Mid ---
+- id: de_001
+  type: Technical
+  difficulty: Mid
+  question: "What is the difference between ETL and ELT? When would you choose one over the other?"
+
+- id: de_002
+  type: Technical
+  difficulty: Mid
+  question: "What is Apache Kafka? How does it differ from a traditional message queue like RabbitMQ?"
+
+- id: de_003
+  type: Technical
+  difficulty: Mid
+  question: "What is Apache Spark? Explain the difference between transformations and actions, and what lazy evaluation means."
+
+- id: de_004
+  type: Technical
+  difficulty: Mid
+  question: "What is the difference between a data warehouse, a data lake, and a data lakehouse?"
+
+- id: de_005
+  type: Technical
+  difficulty: Mid
+  question: "How would you ensure data quality in an automated data pipeline?"
+
+# --- Senior ---
+- id: de_006
+  type: Technical
+  difficulty: Senior
+  question: "How would you design a streaming data pipeline that ingests billions of events per day with exactly-once semantics?"
+
+- id: de_007
+  type: Technical
+  difficulty: Senior
+  question: "How do you handle schema evolution in a data pipeline without breaking downstream consumers?"
+
+- id: de_008
+  type: Technical
+  difficulty: Senior
+  question: "What is the medallion architecture (bronze/silver/gold)? When is it appropriate and what are its trade-offs?"
+
+# ── Mobile Engineering ────────────────────────────────────────────────────────
+
+# --- Mid ---
+- id: mob_001
+  type: Technical
+  difficulty: Mid
+  question: "What is the difference between React Native and Flutter? What are the trade-offs of each for cross-platform mobile development?"
+
+- id: mob_002
+  type: Technical
+  difficulty: Mid
+  question: "How does memory management work on iOS (ARC) vs Android? What are common memory leak patterns?"
+
+- id: mob_003
+  type: Technical
+  difficulty: Mid
+  question: "How do you manage offline-first behaviour in a mobile application? What are the sync conflict challenges?"
+
+# --- Senior ---
+- id: mob_004
+  type: Technical
+  difficulty: Senior
+  question: "How would you architect a large-scale mobile application to support multiple teams working in parallel without stepping on each other?"
+
+# ── Security Engineering ──────────────────────────────────────────────────────
+
+# --- Mid ---
+- id: sec_001
+  type: Technical
+  difficulty: Mid
+  question: "What is the OWASP Top 10? Explain SQL injection and how you prevent it."
+
+- id: sec_002
+  type: Technical
+  difficulty: Mid
+  question: "What is the difference between authentication and authorisation? Explain JWT and its trade-offs."
+
+- id: sec_003
+  type: Technical
+  difficulty: Mid
+  question: "What is a supply chain attack? How do you protect your software supply chain?"
+
+# --- Senior ---
+- id: sec_004
+  type: Technical
+  difficulty: Senior
+  question: "How would you implement a secrets management strategy across microservices in a cloud environment?"
+
+- id: sec_005
+  type: Technical
+  difficulty: Senior
+  question: "How do you perform threat modelling for a new system? Walk me through the process."
